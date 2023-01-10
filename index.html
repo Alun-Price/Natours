@@ -29,19 +29,19 @@
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="#" class="navigation__link">About Natours</a>
+            <a href="#about" class="navigation__link">About Natours</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link">Your benefits</a>
+            <a href="#features" class="navigation__link">Your benefits</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link">Popular tours</a>
+            <a href="#tours" class="navigation__link">Popular tours</a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link">Stories </a>
+            <a href="#stories" class="navigation__link">Stories </a>
           </li>
           <li class="navigation__item">
-            <a href="#" class="navigation__link">Book now </a>
+            <a href="#book" class="navigation__link">Book now </a>
           </li>
         </ul>
       </nav>
@@ -62,7 +62,7 @@
       </div>
     </header>
     <main>
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
             Exciting tours for adventurous people
@@ -110,7 +110,7 @@
           </div>
         </div>
       </section>
-      <section class="section-features">
+      <section class="section-features" id="features">
         <div class="row">
           <div class="col-1-of-4">
             <div class="feature-box">
@@ -181,7 +181,7 @@
           </div>
         </div>
       </section>
-      <section class="section-tours" id="section-tours">
+      <section class="section-tours" id="tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Most popular tours</h2>
         </div>
@@ -286,7 +286,7 @@
         </div>
       </section>
 
-      <section class="section-stories">
+      <section class="section-stories" id="stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
             <source src="img/video.mp4" type="video/mp4" />
@@ -337,7 +337,7 @@
           </div>
         </div>
       </section>
-      <section class="section-book">
+      <section class="section-book" id="book">
         <div class="row">
           <div class="book">
             <div class="book__form">
@@ -414,7 +414,9 @@
         </picture>
       </div>
       <div class="row">
-        <div class="col-1-of-2">
+        <div class="col-1-of-3"></div>
+        <div class="col-1-of-3"></div>
+        <!-- <div class="col-1-of-2"> -->
           <div class="footer__navigation">
             <ul class="footer__list">
               <li class="footer__item">
@@ -434,13 +436,16 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="col-1-of-2">
+          <!-- </div> -->
+          <!-- <div class="col-1-of-2"> -->
           <p class="footer__copyright">
             Copyright&copy Site design by Jonas Schmedtmann.
           </p>
+          <!-- </div> -->
         </div>
+        <div class="col-1-of-3"></div>
       </div>
+
     </footer>
 
     <div class="popup" id="popup">
@@ -450,7 +455,7 @@
           <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
         </div>
         <div class="popup__right">
-          <a href="#section-tours" class="popup__close">&times;</a>
+          <a href="#tours" class="popup__close">&times;</a>
           <h2 class="heading-secondary u-margin-bottom-small">
             Start booking now
           </h2>
