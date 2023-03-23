@@ -4,7 +4,7 @@
 
 ## Link to demo
 
-[React Micro-Blog demo site](https://alun-natours.netlify.app/)
+[Natours demo site](https://alun-natours.netlify.app/)
 
 ## Project Description
 
@@ -12,14 +12,15 @@ A Nature Tours website highlighting the use of SASS, advanced CSS and animations
 
 Areas covered;
 
-- react setup using create-react-app
-- JSX templates
-- components
-- events
-- state
-- use of hooks
-- React Router
-- asynchronous code in components
+- css modal pop-ups
+- background videos
+- polygon effects
+- css animations
+- form customisation
+- card flip animations
+- navigation button effects
+- 7-1 CSS Architecture
+- responsive images and media queries
 
 ## How to Get Started with this Project
 
